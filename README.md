@@ -15,3 +15,5 @@ This the beginning of a basic portfolio for my work.
 * Link to the deployed website (https://onionchop.github.io/oate-portfolio/)
 
 ## Screenshots
+[deployed site screenshot1](./Images/screenshot-1.png)
+[deployed site screenshot2](./Images/screenshot-2.png)
