@@ -16,11 +16,9 @@
   h1,
   h2 {
     margin: 15px;
+    padding-left: 10px;
   }
 
-  h2 {
-    justify-content: space-around;
-  }
   
   main {
     padding: 60px 0;
@@ -44,6 +42,7 @@
     img {
       display: block;
       margin: 5px auto;
+      border-radius: 15px;
     }
 
   header,
@@ -74,14 +73,44 @@
     text-align: center;
   }
   .row {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     flex-direction: column;
       padding: 10px;
     font-size: 15px;
+    border-style: dotted;
+    border-color: #26613d;
+    border-radius: 15px;
+    padding: 10px;
     }
 
     .resize {
-      width: 200px;
+      width: 350px;
       height: auto;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      border-style: dotted;
+      border-color: #dec0f7;
+
+    }
+
+    @media screen and (max-width: 992px) {
+     .resize{
+        width: 50%;
+      }
+    .row{
+        width: 50%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+    .resize{
+      width: 100%;
+      flex-direction: column;
+    }
+    .row{
+      width: 100%;
+      flex-direction: column;
+    }
+
     }
