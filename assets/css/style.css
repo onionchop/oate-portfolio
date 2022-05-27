@@ -16,7 +16,8 @@
   h1,
   h2 {
     margin: 15px;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
   }
 
   
@@ -63,7 +64,7 @@
     margin-top: 0;
     bottom: 0;
     border-bottom: 10px solid #dfa07c;
-    color: #FDF8F5;    
+    color: #dfa07c;    
   }
 
 
