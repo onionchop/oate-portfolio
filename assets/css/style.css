@@ -17,6 +17,10 @@
   h2 {
     margin: 15px;
   }
+
+  h2 {
+    justify-content: space-around;
+  }
   
   main {
     padding: 60px 0;
@@ -30,11 +34,16 @@
   
   a {
     text-decoration: none;
-    color: #FDF8F5;
+    color: #dec0f7;
   }
 
   p {
     width:25em;
+    }
+  
+    img {
+      display: block;
+      margin: 5px auto;
     }
 
   header,
@@ -70,4 +79,9 @@
     flex-direction: column;
       padding: 10px;
     font-size: 15px;
+    }
+
+    .resize {
+      width: 200px;
+      height: auto;
     }
