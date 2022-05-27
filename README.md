@@ -5,8 +5,8 @@ This the beginning of a basic portfolio for my work.
 
 ## Tasks Completed
 * Created a portfolio from scratch.
-* Added a stylesheet to make site more attractive.
-* 
+* Added a stylesheet to make site more aesthetically pleasing.
+* Added a Navigation 
 * 
 
 ## Links 

@@ -18,6 +18,7 @@
     margin: 15px;
     padding-left: 15px;
     padding-top: 10px;
+    color: #195a3f;
   }
 
   
@@ -33,7 +34,19 @@
   
   a {
     text-decoration: none;
-    color: #dec0f7;
+    color: #c79fe9;
+  }
+
+  a:hover{
+    color: rgb(160, 77, 199);
+  }
+  
+  a:visited {
+    color: #13a84c;
+  }
+
+  a:active {
+    color: aqua;
   }
 
   p {
@@ -48,9 +61,10 @@
 
   header,
   footer {
-    height: 60px;
+    position: absolute;
+    height: 40px;
     width: 100%;
-    line-height: 60px;
+    line-height: 40px;
     background-color: #26613d;
   }
   
@@ -78,15 +92,14 @@
 
   .links{
     text-align: end;
-  }
+    }
   .text-center{
     text-align: center;
   }
   .row {
-    display: block;
-    flex-wrap: wrap;
+    display: flex;
     flex-direction: column;
-      padding: 10px;
+    padding: 10px;
     font-size: 15px;
     border-style: dotted;
     border-color: #26613d;
@@ -97,12 +110,20 @@
     .resize {
       width: 350px;
       height: auto;
-      flex-wrap: nowrap;
+      display: flex;
       flex-direction: column;
       border-style: dotted;
       border-color: #dec0f7;
 
     }
+
+    .contact-me {
+      display: inline;
+      padding: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    
 
     @media screen and (max-width: 992px) {
      .resize{
@@ -114,13 +135,10 @@
     }
 
     @media screen and (max-width: 768px) {
-    .resize{
-      width: 100%;
-      flex-direction: column;
-    }
+   
+    } 
     .row{
-      width: 100%;
-      flex-direction: column;
+      flex: 0 0 50%;
+      max-width: 100%;
     }
-
-    }
+    
